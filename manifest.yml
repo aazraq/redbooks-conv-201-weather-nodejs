@@ -4,7 +4,7 @@ declared-services:
     label: conversation
     plan: free
   weatherinsights:
-    label: weatherinsights
+    label: weather-company-data
     plan: Free-v2
 applications:
 - name: conv-201-xxx-weather
