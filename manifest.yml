@@ -3,9 +3,9 @@ declared-services:
   Conversation:
     label: conversation
     plan: free
-  weather-company-data:
-    label: weather
-    plan: free
+  weatherinsights:
+    label: weatherinsights
+    plan: Free-v2
 applications:
 - name: conv-201-xxx-weather
   command: npm start
@@ -14,6 +14,6 @@ applications:
   instances: 1
   services:
   - Conversation
-  - weather-company-data
+  - weatherinsights
   env:
     NPM_CONFIG_PRODUCTION: false
